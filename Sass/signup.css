@@ -1,16 +1,49 @@
+body {
+  background-image: url("../images/photo_2021-09-23_03-46-46.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
 .sign-form {
+  position: absolute;
+  background-color: grey;
+  width: 400px;
   height: 500px;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  color: white;
+}
+
+.sign-form img {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  top: -50px;
+  left: 150px;
 }
 
 .sign-form form {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
-.remember-check {
-  margin-top: -10px;
+.sign-form svg:not(:root).svg-inline--fa {
+  margin-right: 8px;
 }
 
-@media screen and (max-width: 990px) {
+.sign-form button {
+  border-radius: 20px;
+  background-color: gold;
+}
+
+.sign-form input[type="checkbox"] {
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1200px) {
   body {
     background-image: url("../images/photo_2021-09-23_03-46-46.jpg");
     background-size: 100vw 100vh;
@@ -24,6 +57,21 @@
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
+    overflow: hidden;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .sign-form {
+    width: 300px;
+    margin-left: -145px;
+  }
+  .sign-form img {
+    left: 98px;
+  }
+}
+
+.remember-check {
+  margin-top: -10px;
 }
 /*# sourceMappingURL=Signup.css.map */

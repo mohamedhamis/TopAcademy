@@ -209,5 +209,16 @@
     }
 }
 
+@media screen and (max-width:500px) {
+    body {
+        overflow: hidden;
+    }
+    .img-left {
+        img {
+            width: 300px;
+        }
+    }
+}
+
 
 /*end content(image and pay)*/
