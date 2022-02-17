@@ -1,0 +1,29 @@
+.sign-form {
+  height: 500px;
+}
+
+.sign-form form {
+  margin-top: 40px;
+}
+
+.remember-check {
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 990px) {
+  body {
+    background-image: url("../images/photo_2021-09-23_03-46-46.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+/*# sourceMappingURL=Signup.css.map */

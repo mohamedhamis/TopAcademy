@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="images/Icons8-Windows-8-User-Interface-Login.ico" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Sass/Booking.css" rel="stylesheet" />
+    <link rel="icon" href="images/Alecive-Flatwoken-Apps-Google-Drive-Forms.ico" />
+    <meta charset="utf-8" />
+    <title>Booking</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-expand-lg nav-menu">
+
+        <div class="container-fluid">
+            <!--start nav bar brand-->
+            <img src="./images/online-course.png" width="80" height="50" class="navbar-brand text-uppercase">
+            <!--end nav bar brand-->
+            <!--start navbar tooggler-->
+            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <div class="line1 ham"></div>
+        <div class="line2 ham"></div>
+        <div class="line3 ham"></div>      
+      </button>
+            <!--start navbar tooggler-->
+
+            <!--start nav bar links-->
+
+            <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link m-2 menu-item nav-active active" href="carousel.html"> Home </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link m-2 menu-item" href="resorts.html"> resorts </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link m-2 menu-item" href="about us.html"> About </a>
+                    </li>
+
+
+
+                </ul>
+                <!--end nav bar links-->
+
+            </div>
+
+        </div>
+
+
+    </nav>
+    <!--end navbar-->
+    <!--start content-->
+
+    <div class="container cont-body">
+
+        <div class="row">
+            <!--start login-img-->
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 img-left">
+                <center>
+                    <img src="./images/undraw_Credit_card_re_blml-removebg-preview.png" height="200" width="200">
+                </center>
+            </div>
+            <!--end login img-->
+            <!--start method of payment-->
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 choose-method">
+                <div class="cont">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item" style="width:50%;">
+                            <a class="nav-link active" data-toggle="tab" href="#home"><i class="fa fa-cc-mastercard" data-toggle="tooltip" title="MasterCard" ></i></a>
+                        </li>
+                        <li class="nav-item" style="width:50%;">
+                            <a class="nav-link" data-toggle="tab" href="#menu1"><i class="fa fa-paypal" data-toggle="tooltip" title="PayPal"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane container active" id="home">
+                        <div class="ch1">
+                            <i class="fa fa-cc-mastercard"></i> CardNumber<br />
+                            <input type="text" class="form-control" placeholder="xxxxxxxxxxxxxxxxx" /><br />
+                            <i class="fa fa-phone"></i> Phone<br />
+                            <input type="tel" class="form-control" /><br />
+                            <i class="fa fa-envelope"></i> Mail<br />
+                            <input type="email" class="form-control" /><br />
+                            <button class="btn btn-success btn-block">Confirm Booking</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane container fade" id="menu1">
+                        <div class="ch1">
+                            <i class="fa fa-paypal"></i> Paypal<br />
+                            <input type="text" class="form-control" placeholder="xxxxxxxxxxxxxxxxx" /><br />
+                            <i class="fa fa-phone"></i> Phone<br />
+                            <input type="tel" class="form-control" /><br />
+                            <i class="fa fa-envelope"></i> Mail <br />
+                            <input type="email" class="form-control" /><br />
+                            <button class="btn  btn-block">Confirm Booking</button>
+                        </div>
+                    </div>
+
+                </div>
+                <!--end tab content-->
+            </div>
+            <!--end  method of payment-->
+        </div>
+    </div>
+    <!--start content-->
+
+
+
+</body>
+
+
+<script src="Scripts/jquery-3.0.0.js"></script>
+<script src="Scripts/popper.js"></script>
+<script src="Scripts/bootstrap.js"></script>
+<script>
+    $(window).scroll(function() {
+
+        let position = $(this).scrollTop();
+        if (position >= 50) {
+            $('.nav-menu').addClass('costum-navbar');
+        } else {
+            $('.nav-menu').removeClass('costum-navbar');
+        }
+
+    });
+
+
+    // ===== HAMBURGER BUTTON ===== //
+    $(document).ready(function() {
+
+        $('.nav-button').click(function() {
+            $('.nav-button').toggleClass('change');
+        })
+    })
+
+    $(".htmlCSS").animate({
+        width: "95%"
+    }, 2100);
+    $(".jsjqaj").animate({
+        width: "74%"
+    }, 2100);
+    $(".rwd").animate({
+        width: "86%"
+    }, 2100);
+    $(".seo").animate({
+        width: "65%"
+    }, 2100);
+    $(".cssF").animate({
+        width: "44%"
+    }, 2100);
+    $(".wpVC").animate({
+        width: "60%"
+    }, 2100);
+    $(".bdt").animate({
+        width: "85%"
+    }, 2100);
+    $(".bAT").animate({
+        width: "38%"
+    }, 2100);
+    $(".phpMSQL").animate({
+        width: "40%"
+    }, 2100)
+    $(".typo").animate({
+        width: "95%"
+    }, 2100);
+    $(".acs").animate({
+        width: "65%"
+    }, 2100);
+    $(".ld").animate({
+        width: "80%"
+    }, 2100);
+</script>
+</body>
+
+</html>

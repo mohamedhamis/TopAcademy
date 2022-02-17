@@ -1,0 +1,51 @@
+﻿body {
+    background-image: url('../images/photo_2021-09-23_03-46-46.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.login-form {
+    position: absolute;
+    background-color: grey;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    color: white;
+    img {
+        position: absolute;
+        width: 100px;
+        height: 90px;
+        top: -50px;
+        left: 150px;
+    }
+    form {
+        margin-top: 90px
+    }
+    svg:not(:root).svg-inline--fa {
+        margin-right: 8px;
+    }
+    button {
+        border-radius: 20px;
+        background-color: gold;
+    }
+    input[type="checkbox"] {
+        margin-top: 20px;
+        margin-right: 5px
+    }
+}
+
+@media screen and (max-width: 990px) {
+    body {
+        background-image: url("../images/photo_2021-09-23_03-46-46.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+    }
+}
