@@ -54,3 +54,9 @@ $(".acs").animate({
 $(".ld").animate({
     width: "80%"
 }, 2100);
+
+$(document).ready(function() {
+    $(".btn button").click(function() {
+        location.href = "/Booking.html"
+    })
+})

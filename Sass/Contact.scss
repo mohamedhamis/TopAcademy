@@ -110,7 +110,7 @@
         }
     }
     
-    @media screen and (max-width: 990px) {
+    @media screen and (min-width: 575px) and (max-width: 990px) {
         .identity-cont {
             min-height: 488px;
             width: 500px;
@@ -125,12 +125,27 @@
     }
     
     @media screen and (max-width: 575px) {
-        .nav-menu {
-            margin-left: 30px;
+        .identity-cont {
+            min-height: 500px;
         }
-        .contact-form,
-        .z {
+        .contact-form {
             margin-left: 35px;
+            margin-top: 220px;
+        }
+        .z {
+            position: absolute;
+            margin-left: 327px;
+        }
+    }
+    
+    @media screen and (min-width:300px) and (max-width: 480px) {
+        .contact-form {
+            margin-left: 9px;
+            margin-top: 220px;
+        }
+        .z {
+            position: absolute;
+            margin-left: 380px;
         }
     }
     /*end media styles*/
