@@ -30,7 +30,7 @@
     }
     button {
         border-radius: 20px;
-        background-color: gold;
+        background-color: orange;
     }
     input[type="checkbox"] {
         margin-top: 20px;
@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    button {
+        margin-top: -53px;
+    }
     .login-form {
         height: 240px;
         width: 250px;
