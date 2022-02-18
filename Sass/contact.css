@@ -1,6 +1,7 @@
 body {
   background-color: #F3F6D3;
   background-color: #AAA;
+  overflow: hidden;
 }
 
 /*start navbar*/
@@ -138,7 +139,7 @@ body {
   }
   .contact-form {
     margin-left: 35px;
-    margin-top: 220px;
+    margin-top: 117px;
   }
   .z {
     position: absolute;
@@ -147,13 +148,44 @@ body {
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .identity-cont {
+    max-width: 300px;
+    margin-top: -32px;
+  }
+  .nav-menu {
+    margin-left: 0px;
+  }
   .contact-form {
+    width: 100px;
     margin-left: 9px;
-    margin-top: 220px;
+    margin-top: 150px;
+  }
+  .contact-form input {
+    margin-left: -16px;
+  }
+  .contact-form textarea {
+    margin-left: -16px;
+  }
+  .contact-form button {
+    margin-left: -10px;
   }
   .z {
+    width: 220px;
     position: absolute;
-    margin-left: 380px;
+    margin-left: 55px;
+  }
+  .z .row {
+    display: none;
+  }
+  .z h3 {
+    display: inline-block;
+    margin-top: 46px;
+  }
+  .row .social-icons {
+    display: inline-block;
   }
 }
 
@@ -167,6 +199,10 @@ body {
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
   background-color: green;
+}
+
+.social-icons-back {
+  display: none;
 }
 
 .identity-cont {
@@ -236,6 +272,17 @@ body {
 
 .identity-cont .z {
   margin-top: 10px;
+}
+
+.identity-cont .social-icons-back {
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 90px;
 }
 
 .social {

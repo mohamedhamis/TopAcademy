@@ -26,7 +26,7 @@
         margin-top: 50px
     }
     svg:not(:root).svg-inline--fa {
-        margin-right: 8px;
+        margin-right: 4px;
     }
     button {
         border-radius: 20px;
@@ -52,11 +52,25 @@
 }
 
 @media screen and (max-width: 500px) {
-    .logim-form {
-        width: 300px;
-        margin-left: -150px;
+    .login-form {
+        height: 300px;
+        width: 250px;
+        margin-left: -123px;
+        margin-top: -143px;
         img {
-            left: 98px;
+            left: 90px;
+            width: 70px;
+            height: 50px;
+            margin-top: 23px;
+        }
+        form {
+            font-size: 10px;
+            height: 250px;
+            background-color: grey;
+            input {
+                height: 25px;
+                font-size: 13px;
+            }
         }
     }
 }

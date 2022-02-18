@@ -30,7 +30,7 @@ body {
 }
 
 .login-form svg:not(:root).svg-inline--fa {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 .login-form button {
@@ -62,12 +62,26 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .logim-form {
-    width: 300px;
-    margin-left: -150px;
+  .login-form {
+    height: 300px;
+    width: 250px;
+    margin-left: -123px;
+    margin-top: -143px;
   }
-  .logim-form img {
-    left: 98px;
+  .login-form img {
+    left: 90px;
+    width: 70px;
+    height: 50px;
+    margin-top: 23px;
+  }
+  .login-form form {
+    font-size: 10px;
+    height: 250px;
+    background-color: grey;
+  }
+  .login-form form input {
+    height: 25px;
+    font-size: 13px;
   }
 }
 
