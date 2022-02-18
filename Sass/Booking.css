@@ -204,7 +204,7 @@ body {
 
 @media screen and (max-width: 500px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .img-left img {
     width: 300px;
