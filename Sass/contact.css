@@ -138,12 +138,15 @@ body {
     min-height: 500px;
   }
   .contact-form {
-    margin-left: 35px;
-    margin-top: 117px;
+    margin-left: 0px;
+    margin-top: 215px;
   }
   .z {
     position: absolute;
-    margin-left: 327px;
+    margin-left: 300px;
+  }
+  .foot {
+    display: inline-block;
   }
 }
 
@@ -187,6 +190,9 @@ body {
   .row .social-icons {
     display: inline-block;
   }
+  .z .row .foot {
+    display: inline-block;
+  }
 }
 
 /*end media styles*/
@@ -199,6 +205,10 @@ body {
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
   background-color: green;
+}
+
+.foot {
+  display: none;
 }
 
 .social-icons-back {

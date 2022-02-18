@@ -35,16 +35,13 @@ body {
 
 .sign-form button {
   border-radius: 20px;
-  background-color: gold;
+  background-color: orange;
+  margin-top: -8px;
 }
 
 .sign-form input[type="checkbox"] {
   margin-top: 20px;
   margin-right: 5px;
-}
-
-.sign-form button {
-  margin-top: -8px;
 }
 
 @media screen and (max-width: 1200px) {
