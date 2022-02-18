@@ -44,7 +44,7 @@ body {
 }
 
 .sign-form button {
-  margin-top: -5px;
+  margin-top: -8px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -69,6 +69,7 @@ body {
   .sign-form {
     width: 300px;
     margin-left: -150px;
+    margin-top: -360px;
   }
   .sign-form img {
     left: 98px;
